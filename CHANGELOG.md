@@ -15,6 +15,7 @@ a lot of old deprecated features and old internals in preparation for an upcomin
 - Removed previously deprecated `max_delay` option
 - Removed previously deprecated `max_attempts` option
 - Removed previously deprecated `socket_no_delay` option
+- Removed parsing arguments which are not string, date or buffer types for commands(No implicit conversion to string).
 
 ### Bug Fixes
 
